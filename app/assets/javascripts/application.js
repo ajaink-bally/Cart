@@ -13,3 +13,14 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require bootstrap
+//= require bootstrap-slider
+//= require monitoring/home
+//= require_tree ./pod
+//= require select2
+//= require highcharts
+//= require jquery.slidereveal.min
+//= require jquery.slidereveal
+//= require bootstrap-toggle.min
+//= require autocomplete
+//= require jquery.tablesorter
