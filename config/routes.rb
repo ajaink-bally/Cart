@@ -1,7 +1,21 @@
 Rails.application.routes.draw do
+  get 'admin/index'
+
+  get 'sessions/new'
+
+  get 'sessions/create'
+
+  get 'sessions/destroy'
+
+  resources :users
+  resources :orders
+  resources :line_items
+  resources :carts
   get 'store/index'
 
-  resources :products
+  resources :products do
+    get :who_bought, on: :member
+  end
 
   root to: "store#index", as: 'store'
   # The priority is based upon order of creation: first created -> highest priority.
