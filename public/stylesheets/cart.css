@@ -1,0 +1,18 @@
+#cart, #cart table { 
+  font-size: smaller;
+  color: white;
+}
+
+#cart table {
+border-top: 1px dotted #595;
+border-bottom: 1px dotted #595;
+margin-bottom: 10px;
+}
+
+.cart_title {
+  font: 120% bold;
+}
+
+.add_to_cart {
+  position: relative;
+}
